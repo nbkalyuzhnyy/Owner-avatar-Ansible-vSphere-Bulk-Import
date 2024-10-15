@@ -1,0 +1,22 @@
+vsphere_url: "vc.lab.internal"
+vsphere_login: "administrator@vsphere.local"
+vsphere_password: "P@ssw0rd"
+validate_certs: False
+debug: True
+input_file: "vms.csv"
+def_vm_template: "ubuntu-server-2004"
+def_vm_cluster: "cluster01"
+def_vm_resource_pool: "pool01"
+def_vm_folder: "folder01"
+def_vm_datacenter: "Datacenter"
+def_disk_type: "thin"
+def_disk_mode: "persistent"
+def_datastore: "datastore0"
+def_network_netmask: "255.255.255.0"
+def_network_gateway: "192.168.1.1"
+def_network_domain: "lab.internal"
+def_vm_password: "P@ssw0rd"
+def_vm_state: "poweredon"
+def_wait_for_ip_address: "yes"
+def_network_dns_servers:
+- 192.168.1.3
